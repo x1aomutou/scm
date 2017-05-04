@@ -3,8 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.scm</groupId>
-		<artifactId>scm</artifactId>
+		<artifactId>scm-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../scm-parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>scm-demo1</artifactId>
 	<name>scm-demo1</name>
