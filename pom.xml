@@ -7,9 +7,6 @@
 	<artifactId>scm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<scm>
-		<developerConnection>scm:git:http://hello@gitlab.zhanyi.co/hello/scm.git</developerConnection>
-	</scm>
 	<distributionManagement>
 		<repository>
 			<id>release1</id>
@@ -20,13 +17,15 @@
 			<url>http://localhost:8090/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 		<site>
-			<id>demo1</id>
+			<id>scmsite</id>
 			<url>http://www.baidu.com/</url>
 		</site>
 	</distributionManagement>
 
-	<!-- <scm> <developerConnection>scm:git:http://hello@gitlab.zhanyi.co/hello/scm.git</developerConnection> 
-		<tag>scm-0.0.1</tag> </scm> -->
+	<scm>
+		<developerConnection>scm:git:http://hello@gitlab.zhanyi.co/hello/scm.git</developerConnection>
+		<tag>scm-0.0.1</tag>
+	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
