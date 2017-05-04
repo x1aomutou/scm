@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.scm</groupId>
 		<artifactId>scm</artifactId>
-		<version>0.0.2-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>scm-demo1</artifactId>
 	<name>scm-demo1</name>
@@ -15,7 +15,7 @@
 		<dependency>
 			<groupId>com.scm</groupId>
 			<artifactId>scm-core</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
