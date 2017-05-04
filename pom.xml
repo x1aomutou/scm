@@ -23,7 +23,7 @@
 	</distributionManagement>
 
 	<scm>
-		<developerConnection>scm:git:http://hello@gitlab.zhanyi.co/hello/scm.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/x1aomutou/scm.git</developerConnection>
 		<tag>scm-0.0.1</tag>
 	</scm>
 
