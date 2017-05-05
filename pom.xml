@@ -4,7 +4,7 @@
 
 	<groupId>com.scm</groupId>
 	<artifactId>scm</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<distributionManagement>
 		<repository>
@@ -23,7 +23,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/x1aomutou/scm.git</developerConnection>
-		<tag>scm-0.0.1</tag>
+		<tag>scm-0.0.2</tag>
 	</scm>
 
 	<properties>
@@ -58,6 +58,16 @@
 				<configuration>
 					<useReleaseProfile>false</useReleaseProfile>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
+				</configuration>
+			</plugin>
+			<!-- 发布去掉时间戳 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ear-plugin</artifactId>
+				<version>2.10.1</version>
+				<configuration>
+					<version>6</version>
+					<fileNameMapping>no-version</fileNameMapping>
 				</configuration>
 			</plugin>
 			<!-- 生成javadoc文档包的插件 -->
